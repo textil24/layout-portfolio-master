@@ -1,0 +1,128 @@
+.qualification__container {
+    max-width: 768px;
+}
+
+.qualification__tabs {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-bottom: var(--mb-2);
+}
+
+.qualification__button {
+    display: flex;
+    align-items: center;
+    font-size: var(--h3-font-size);
+    font-weight: var(--font-medium);
+    color: var(--title-color);
+    margin: 0 5px 10px;
+    padding: 10px 15px;
+    border-radius: 13px;
+    cursor: pointer;
+}
+
+.qualification__active {
+    background-color: #333;
+    color: whitesmoke !important;
+}
+
+.qualification__button:hover {
+    color: var(--title-color-dark)
+}
+
+.qualification__icon {
+    font-size: 1.8rem;
+    margin-right: var(--mb-0-25);
+}
+
+.qualification__icon {
+    color: var(--title-color-dark);
+}
+
+.qualification__icon.active {
+    color: whitesmoke;
+}
+
+.qualification__list {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.qualification__item {
+    background-color: var(--container-color);
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 1.5rem 1rem;
+    border-radius: 1.25rem;
+}
+
+.qualification__wrapper {
+    background-color: #333;
+    position: relative;
+    height: 250px;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.qualification__image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding: 10px 10px;
+    background-color: #999;
+    object-fit: contain;
+}
+
+
+.qualification__title {
+    margin-top: 20px;
+}
+
+.qualification__title:hover {
+    text-decoration: underline;
+}
+
+.qualification__content {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+}
+
+.qualification__demo {
+    font-size: var(--h3-font-size);
+    font-weight: bold;
+
+    display: inline-flex;
+    align-items: baseline;
+    column-gap: .25rem;
+    cursor: pointer;
+}
+
+.qualification__demo-icon {
+    font-size: 1rem;
+    transition: .3s;
+}
+
+.qualification__demo:hover .qualification__demo-icon {
+    transform: translateX(.25rem);
+}
+
+/* For medium devices */
+@media screen and (max-width: 568px) {
+    .qualification__list {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 20px;
+    }
+
+    .qualification__wrapper {
+        height: 200px;
+    }
+
+    .qualification__item {
+        padding: 1rem;
+    }
+}
