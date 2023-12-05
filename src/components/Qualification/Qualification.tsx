@@ -59,7 +59,7 @@ const Qualification = () => {
         <div className="qualification__list container">
           <div className="qualification__item">
             <div className="qualification__wrapper">
-              <img className="qualification__image" src={"https://logos-world.net/wp-content/uploads/2021/10/Python-Symbol.png"} alt="image" />
+              <img className="qualification__image" src={"https://sky.pro/media/wp-content/uploads/2023/01/7.9.-kto-takoj-python-razrabotchik-i-kak-im-stat.png"} alt="image" />
             </div>
             <div className="qualification__content">
               <h3 className="qualification__title">
@@ -82,7 +82,7 @@ const Qualification = () => {
           </div>
           <div className="qualification__item">
             <div className="qualification__wrapper">
-              <img className="qualification__image" src={"https://logos-world.net/wp-content/uploads/2021/10/Python-Symbol.png"} alt="image" />
+              <img className="qualification__image" src={"https://sky.pro/media/wp-content/uploads/2023/01/7.9.-kto-takoj-python-razrabotchik-i-kak-im-stat.png"} alt="image" />
             </div>
             <div className="qualification__content">
               <h3 className="qualification__title">
@@ -105,7 +105,7 @@ const Qualification = () => {
           </div>
           <div className="qualification__item">
             <div className="qualification__wrapper">
-              <img className="qualification__image" src={"https://logos-world.net/wp-content/uploads/2021/10/Python-Symbol.png"} alt="image" />
+              <img className="qualification__image" src={"https://sky.pro/media/wp-content/uploads/2023/01/7.9.-kto-takoj-python-razrabotchik-i-kak-im-stat.png"} alt="image" />
             </div>
             <div className="qualification__content">
               <h3 className="qualification__title">
